@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Middle Eastern Cuisine</title>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/
+  css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/
+  4.7.0/css/font-awesome.min.css">
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+$(document).ready(() => {
+
+  $('#Tahini').hide();
+  $('#Hummus').hide();
+  $('#Foul').hide();
+  $('#Turkish').hide();
+  $('#Falafel').hide();
+
+  $('.tahiniPic').on('click', () => {
+      $('#Tahini').toggle();
+  });
+
+  $('.hummusPic').on('click', () => {
+      $('#Hummus').toggle();
+  });
+    $('.foulPic').on('click', () => {
+      $('#Foul').toggle();
+  });
+      $('.turkishPic').on('click', () => {
+      $('#Turkish').toggle();
+  });
+
+  $('.falafelPic').on('click', () => {
+      $('#Falafel').toggle();
+  });
+});
+</script>
+
+
+
+
+  <style>
+body {
+  /* Old browsers */
+  background: #141E30;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577D, #141E30);
+  margin: 0;
+  padding: 30px;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 2em;
+  padding-top: 50px;
+  width: 100%;
+   font-family: Bookman;
+   text-align: center;
+}
+
+h2 {
+    font-family: Georgia;
+ border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 24px;
+  padding-top: 30px;
+  text-align: left;
+  width: 70%;
+}
+h3 {
+    font-family: Georgia;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 19px;
+  line-height: 22px;
+  padding-top: px;
+  text-align: left;
+  width: 70%;
+}
+
+p {
+  font-size: 18px;
+  color: AliceBlue;
+  line-height: 1.3em;
+  text-align: left;
+  width: 100%;
+}
+
+ul {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: AliceBlue;
+}
+
+
+
+.tahiniPic {
+  background-image: url("https://fthmb.tqn.com/nZfGPYciLcc6u7uhrkTFHhdGDXc=/960x0/filters:no_upscale()/homemade-falafel-with-salad-tahini-sauce-on-flat-bread-591217253-5825ff835f9b58d5b12bc1a3.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.hummusPic {
+  background-image: url(
+  "https://fthmb.tqn.com/IfEy0AzCDlDUPU02PWWEPDyO1Io=/960x0/filters:no_upscale()/GettyImages-539670367-5890b05e5f9b5874ee5104b2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.falafelPic {
+  background-image: url("https://fthmb.tqn.com/oQO0qHMi2Ie--CQJina4P52yZ_M=/960x0/filters:no_upscale()/close-up-of-falafels-in-wrap-sandwich-on-plate-659106519-5825fbb05f9b58d5b125f1b9.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.foulPic {
+  background-image: url("https://fthmb.tqn.com/XEpXL9BRfgDuvtBbo_dUigNalRA=/960x0/filters:no_upscale()/uae-food-selfies-563915601-5826008d5f9b58d5b12c38f0.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.turkishPic {
+  background-image: url("https://fthmb.tqn.com/f--ais9WsuheJ4DPK7LNlClrdx4=/960x0/filters:no_upscale()/turkish-delight-131708565-582600d55f9b58d5b12c4d8d.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.nav{ 
+  background-color:  #595959;
+  color: #ffffff;
+  list-style: none;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.nav > li {
+  display: inline-block;
+  padding:  0 20px 0 20px;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav > li > a:hover {
+  color:#c1c1c1;
+}
+
+
+
+
+  </style>
+</head>
+
+
+
+
+<body>
+      <ul class="nav">
+        <li><a href="#Tahini">Tahini</a></li>
+        <li><a href="#Hummus">Hummus</a></li>
+        <li><a href="#Foul">Foul Mudammes</a></li>
+        <li><a href="#Turkish">Turkish Delight</a></li>
+        <li><a href="#Falafel">Falafel</a></li>
+      </ul>
+      <p>Instructions for the website: You can make the meal's description appear or disappear by clicking
+      it's photo, once you have discovered(clicked) them you may use the navigation menu above to find them</p>
+    <h1>Middle Eastern Cuisine </h1>
+
+
+    <div id="Tahini">
+      <h2>Tahini</h2>
+      <p>A virtual tie for popularity, fame and frequency of use is tahini. The sesame paste
+      is a foundation for many good Middle Eastern recipes. It can be an ingredient, a dip or
+    a spread and is used in both sweet and savory dishes.</p>
+
+     </div>
+        <div class="tahiniPic"></div>
+
+
+
+    <div id="Hummus">
+      <h2>Hummus</h2>
+      <p> Starting with probably the <em>best</em> known Middle Eastern food, hummus is a mashed
+        chickpea dip made with tahini, olive oil, garlic and lemon juice. It is an enticing appetizer,
+        served with pita bread and vegetables but also amazing as a sandwich spread. <p>
+    </div>
+      <div class="hummusPic"></div>
+   
+
+
+
+
+
+    <div id="Foul">
+      <h2>Foul Mudammes</h2>
+      <p>If you're sitting down for breakfast in the Middle East, you're probably being served Foul
+      Mudammes. These boiled and mashed fava beans with spices are traditionally eaten with pita
+      bread.</p>
+     </div>
+        <div class="foulPic"></div>
+
+
+
+
+    <div id="Turkish">
+      <h2>Turkish Delight</h2>
+      <p> Turkish Delight are the quintessential candies (also called lokum) in the Middle East.
+      Made simply with sugar and cornstarch, they're addictive and irresistible! </p>
+     </div>
+        <div class="turkishPic"></div>
+
+
+
+
+    <div id="Falafel">
+      <h2>Cuisine of the day: Falafel</h2>
+      <p>If you ask someone to name the most famous Middle Eastern food and their answer is not hummus
+      then it's almost certainly going to be falafel. This widely recognized staple is a fried ball made
+    of chickpeas, onions and spices. It is served both as an appetizer on a mezze platter or as the
+  protein in a vegetarian meal. Falafel makes a great sandwich inside pita bread with Israeli salad.</p>
+      <h3>Ingredients:</h3>
+      <ul>
+        <li>Chickpeas</li>
+        <li>garlic</li>
+        <li>Onion</li>
+        <li>Tomato</li>
+        <li>Yoghurt</li>
+        <li>Parsley</li>
+        <li>Coriander</li>
+        <li>Cumin</li>
+        <li>Salt</li>
+        <li>Pepper</li>
+        <li>Cayenne Pepper</li>
+      </ul>
+      </div>
+            <div class="falafelPic"></div>
+
+
+      <a href="https://www.youtube.com/watch?v=6jSuDiLjEBE&ab_channel=MixedFacts" target="_blank">
+      Click here to enjoy more Middle Eastern entertainment</a>
+</body>
+</html>
+
